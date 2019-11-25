@@ -16,9 +16,10 @@ MessageRestFulApi is a web application that allows to get, post and delete messa
 - Use Laravel CRUD Generator.
 - Use Controller API Resource Routes.
 
-    <?php
-       Route::resource('listtodos','ListtodoController');
-    ?>
+
+```php
+ Route::resource('listtodos','ListtodoController');
+```
 
 ### Using by
 URL: https://aguirregonzaloa.github.io/fetch-list/
